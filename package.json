@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "./node_modules/.bin/browserify -t vueify -t [ babelify --presets [ es2015 ] ] -e ./src/main.js -o public/dist.js",
+    "build": "./node_modules/.bin/browserify -t vueify -t [ babelify --presets [ es2015 ] ] -e ./src/main.js -o public/dist.js"
   },
   "author": "",
   "license": "ISC",
